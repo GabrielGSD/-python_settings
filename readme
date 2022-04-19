@@ -19,3 +19,7 @@ Rodar FLASK
 
 Para instalar o ambiente automaticamente, basta rodar o seguinte comando no bash:
 >sh install.sh
+
+Criar imagem docker 
+>docker build --tag docker-python .
+>docker run docker-python
